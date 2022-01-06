@@ -4,17 +4,20 @@ programa
 	funcao inicio()
 	{
 		cadeia nome
-		escreva("Qual é o seu nome?")
+		escreva("Nome do Funcionário: ")
 		leia(nome)
-		escreva("Olá " + nome + ", é um prazer te conhecer!")
-	}	
+		real salario
+		escreva("Salário: ")
+		leia(salario)
+		escreva("O funcionário " + nome + " tem um salário de R$" + salario + " em Junho")
+	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 120; 
+ * @POSICAO-CURSOR = 192; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
