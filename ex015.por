@@ -3,14 +3,11 @@ programa
 	
 	funcao inicio()
 	{
-		real km, dias, valor
-		escreva("Digite a quantidade de Km percorridos: ")
-		leia(km)
-		escreva("Digite quantos dias o carro foi alugado: ")
+		real dias, salario
+		escreva("Quantos dias foram trabalhados este mês? ")
 		leia(dias)
-		valor = (dias * 90) + (km * 0.20)
-		escreva("O total a pagar pelo aluguel do carro é de: R$", valor)
-	
+		salario = (8 * 25) * dias
+		escreva("Você receberá R$ ", salario, "por trabalhar ", dias, " dias neste mês.")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -18,7 +15,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 289; 
+ * @POSICAO-CURSOR = 226; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
