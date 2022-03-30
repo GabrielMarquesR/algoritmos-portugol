@@ -3,25 +3,23 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro cont = 1
-		inteiro n
-		inteiro par = 0
-		inteiro impar = 0
-		
+		inteiro c = 1
+		inteiro n, pares = 0, impares = 0		
 	
-		enquanto (cont <= 6) {
+		enquanto (c <= 6) {
 			escreva("Digite um valor: ")
 			leia(n)
-			cont += 1		
+			c++		
 			se (n % 2 == 0) {
-				par += 1	
+				pares++	
 			}
 			senao {
-				impar += 1
+				impares++
 			}					
 		}
-		escreva(par, " números são pares!\n")
-		escreva(impar, " números são ímpares!")
+		escreva("---------RESULTADO---------\n")
+		escreva(pares, " números são pares!\n")
+		escreva(impares, " números são ímpares!")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -29,7 +27,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 312; 
+ * @POSICAO-CURSOR = 281; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
